@@ -1,4 +1,4 @@
-## Project Title: Restaurant Order, Kitchen & Billing System##
+## Project Title: Restaurant Order, Kitchen & Billing System
 
 # Project No: 15 
 # Project Area: Money & Commerce Course: PSPJ – Problem Solving Using Java (PBL, Sem I) · Department of FED · Academic Year 2026–27 (I-I Semester)

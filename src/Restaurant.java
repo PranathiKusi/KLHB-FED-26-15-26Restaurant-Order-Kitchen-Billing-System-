@@ -33,9 +33,14 @@ public class Restaurant {
         reports = new ReportService(orders, billing, feedback, monitor, energy, auth, menu);
     }
 
-    /** Loads data/menu.csv; if it is missing or empty, the built-in 13-dish menu is used. */
+    /** Uses the built-in 13-dish menu, or an optional data/menu.csv file if one exists. */
     public String loadMenu() {
-        int loaded = files.loadMenuCsv(FileStore.findDataFile("menu.csv"), menu);
+        java.nio.file.Path csv = FileStore.findDataFile("menu.csv");
+        if (!java.nio.file.Files.exists(csv)) {
+            menu.loadDefaultMenu();
+            return "built-in default menu (" + menu.getCount() + " dishes)";
+        }
+        int loaded = files.loadMenuCsv(csv, menu);
         if (loaded == 0) {
             menu.loadDefaultMenu();
             return "built-in default menu (" + menu.getCount() + " dishes)";

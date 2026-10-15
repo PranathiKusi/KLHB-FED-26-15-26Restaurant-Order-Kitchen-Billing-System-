@@ -1,0 +1,15 @@
+# DineSync starting menu - read at start-up by FileStore.loadMenuCsv()
+# name,category(1 Starters 2 Main Course 3 Breads 4 Desserts 5 Beverages),type(1 Veg 2 Non-Veg 3 Beverage),price,prepMinutes,available(y/n)
+Veg Spring Roll,1,1,150,12,y
+Gobi Manchurian,1,1,160,15,y
+Veg Biryani,2,1,250,20,y
+Paneer Tikka,1,1,220,15,y
+Chicken Biryani,2,2,320,25,y
+Butter Naan,3,1,50,8,y
+Chicken 65,1,2,240,15,y
+Dal Tadka,2,1,180,12,y
+Fish Curry,2,2,350,25,y
+Gulab Jamun,4,1,90,5,y
+Masala Chai,5,3,40,5,y
+Fresh Lime Soda,5,3,60,3,y
+Mutton Rogan Josh,2,2,420,30,y

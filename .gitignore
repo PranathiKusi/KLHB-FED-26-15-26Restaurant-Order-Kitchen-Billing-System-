@@ -1,0 +1,11 @@
+# compiled Java
+*.class
+bin/
+out/
+# files written by the program at run time
+dinesync-output/
+# editor / OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

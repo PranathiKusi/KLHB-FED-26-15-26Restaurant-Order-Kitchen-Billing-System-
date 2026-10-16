@@ -1,0 +1,11 @@
+
+Idli,30
+Dosa,50
+Poori,40
+Samosa,20
+Veg Biryani,120
+Chicken Biryani,180
+Paneer Curry,150
+Roti,15
+Tea,15
+Coffee,25
